@@ -13,12 +13,12 @@ const codes = [
 
 function init() {
   const body = document.querySelector('body');
-  
+
   let index = 0;
-  
+
   body.addEventListener('keydown', function onKeyDownHandler(e) {
     const key = e.key;
-    
+
     if (key === codes[index]) {
       index++;
 
